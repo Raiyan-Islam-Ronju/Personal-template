@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	font-family: Ubuntu, sans-serif;
+	padding: 30px 0px;
+	
+}
+.header.sticky{
+	background: crimson;
+	padding: 10px 15px 0px;
+}
+.header.sticky li a{
+	color: #fff;
+}
+.header.sticky .logo a{
+	color: #fff;
+}
+.header.sticky li a:hover{
+	color: crimson;
+	background: #fff;
+	padding: 2px 3px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+.header .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0px 80px;
+	margin: auto;
+}
+.menu li a{
+	color: #000;
+	text-decoration: none;
+	margin-left: 25px;
+	font-size: 18px;
+	font-weight: 500px;
+	
+}
+.menu li a:hover{
+	color: crimson;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.logo a{
+	color: #000;
+	font-size: 35px;
+	text-decoration: none;
+	display: block;
+	font-weight: 600px;
+	margin-top: -21px;
+	padding: 10px 0px;
+	
+	
+}
+.menu-btn{
+	color: #111;
+	font-size: 25px;
+	display: none;
+}
+.scroll-up-btn{
+	position: fixed;
+	height: 45px;
+	width: 42px;
+	background: crimson;
+	right: 30px;
+	bottom: 10px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	z-index: 9999;
+	font-size: 40px;
+	border-radius: 6px;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease;
+}
+.scroll-up-btn .show{
+	bottom: 30px;
+	opacity: 1;
+	pointer-events: auto;
+}
+.logo span{
+	color: green;
+	font-size: 37px;
+}
+/*home page design*/
+.home{
+	display: flex;
+	background: url("images/pexels-photo-4050296.jpeg") no-repeat;
+	background-size: cover;
+	min-height: 700px;
+	font-family: Ubuntu, sans-serif;
+}
+.home .max-width{
+	margin: auto 0px auto 40px;
+}
+.home-content .text1{
+	color: #fff;
+	font-size: 27px;
+}
+.home-content .text2{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 500px;
+	margin-left: -3px;
+}
+.home-content .text3{
+	color: #fff;
+	font-size: 40px;
+	margin-left: 5px 0;
+}
+.home-content .text3 span{
+	color: crimson;
+	font-weight: 500px;
+}
+.home-content a{
+	color: #fff;
+	background: crimson;
+	padding: 12px 36px;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid crimson;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+}
+.home-content a:hover{
+	color: crimson;
+	background: none;
+}
+/*about section styling*/
+section{
+	padding: 100px 0px;
+}
+.about{
+	font-family: Poppins, sans-serif;
+}
+.about .container img{
+	width: 340px;
+	height: 340px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+.about .container h2{
+	font-size: 40px;
+	font-family: ubuntu, sans-serif;
+	text-align: center;
+	
+}
+.about .container hr{
+	width: 180px;
+	border: 2px solid #111;
+	margin-bottom: -1px;
+}
+.about .container h4{
+	font-size: 24px;
+	color: crimson;
+	text-align: center;
+	margin-top: -17px;
+}
+.about .container .text{
+	font-size: 28px;
+	font-weight: 500px;
+	font-family: poppins, sans-serif;
+	
+}
+.about .container .text span{
+	color: crimson;
+}
+.about .container p{
+	font-size: 18px;
+	text-align: justify;
+}
+.about .container a{
+	color: #fff;
+	background: crimson;
+	padding: 12px 36px;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid crimson;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+}
+.about .container a:hover{
+	background: none;
+	color: crimson;
+}
+.service{
+	background: #111;
+	font-family: Poppins, sans-serif;
+}
+.service .container h2{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	font-family: ubuntu, sans-serif;
+}
+.service .container h4{
+	color: crimson;
+	font-size: 22px;
+	text-align: center;
+}
+.service .container b{
+	color: #fff;
+}
+.service .container .card{
+	color: #fff;
+	background: #222;
+	text-align: center;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin: 2px 0px;
+}
+.service .container .card:hover{
+	transform: scale(1.02);
+	background: crimson;
+}
+.service .container .card i{
+	font-size: 45px;
+	color: #fff;
+}
+.service .container .card h3{
+	font-size: 25px;
+	margin: 10px 0px 7px 0px;
+}
+
+.myskill h2{
+	font-size: 40px;
+	font-weight: 500px;
+	text-align: center;
+	font-family: ubuntu, sans-serif;
+}
+.myskill h4{
+	font-size: 22px;
+	text-align: center;
+	color: crimson;
+	margin-top: -8px;
+}
+.myskill .text{
+	font-size: 32px;
+	font-weight: 600;
+}
+.myskill p{
+	font-size: 18px;
+	text-align: justify;
+}
+.myskill .bars{
+	margin-bottom: 15px;
+	margin-left; 5px;
+}
+.myskill .info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.myskill .info span{
+	font-weight: 500px;
+	font-size: 18px;
+	margin-left; 5px;
+}
+.myskill .line{
+	height: 5px;
+	width: 100%;
+	background: lightgrey;
+	position: relative;
+	margin-left; 5px;
+}
+.myskill .line::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	left: 0;
+	top: 0;
+	background: crimson;
+}
+.myskill .html::before{
+	width: 90%;
+}
+.myskill .css::before{
+	width: 80%;
+}
+.myskill .javascript::before{
+	width: 70%;
+}
+.myskill .php::before{
+	width: 50%;
+}
+.myskill .mysql::before{
+	width: 60%;
+}
+.myskill a{
+	color: #fff;
+	background: crimson;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid crimson;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+}
+.myskill a:hover{
+	background: none;
+	color: crimson;
+}
+.contact{
+	font-family: poppins, sans-serif;
+	background: #111;
+	color: #fff;
+}
+.contact h2{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	color: #fff;
+	font-family: ubuntu, sans-serif;
+	
+}
+.contact h3{
+	color: crimson;
+	text-align: center;
+	margin-top: -13px;
+	font-weight: 500;
+}
+.contact .text h1{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.contact .text p{
+	text-align: justify;
+}
+.contact .icons{
+	display: flex;
+	align-items: center;
+	margin: 12px 0;
+}
+.contact .icons .info{
+	margin-left: 30px;
+}
+.contact .icons i{
+	color: crimson;
+	font-size: 25px;
+}
+.contact .icons .info .head{
+	color: #1462e0;
+	font-size: 25px;
+}
+.contact .button{
+	height: 47px;
+	width: 170px;
+}
+.contact .button button{
+	width: 100%;
+	height: 100%;
+	background: crimson;
+	border: 2px solid crimson;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 6px;
+	transition: all 0.4s ease;
+	cursor: pointer;
+}
+.contact .button button:hover{
+	color: crimson;
+	background: none;
+}
+.contact h1{
+	font-size: 30px;
+}
+footer{
+	background: #000;
+	color: #fff;
+	padding: 20px 23px;
+	text-align: center;
+}
+footer span a{
+	color: crimson;
+	text-decoration: none;
+}
+footer span a:hover{
+	color: crimson;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1104px){
+	.home .max-width{
+		margin-left: 0px;
+	}
+}
+@media (max-width: 991px){
+	.max-width{
+		padding: 0px 50px;
+	}
+}
+@media (max-width: 942px){
+	.myskill p{
+		font-size: 16px;
+	}
+	.myskill .text{
+		font-size: 28px;
+	}
+}
+@media (max-width: 947px){
+	.max-width{
+		padding: 0px 50px;
+	}
+	.menu-btn{
+		display: block;
+		z-index: 999;
+	}
+	.header .menu{
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		left: 100%;
+		top: 0;
+		background: #fff;
+		text-align: center;
+		padding-top: 80px;
+		transition: all 0.5s ease;
+	}
+	.header .menu.active{
+		left: 0%;
+	}
+	.header .menu li{
+		display: block;
+	}
+	.header .menu li a{
+		display: inline-block;
+		margin: 20px 0;
+		font-size: 25px;
+	}
+}
+@media (max-width: 540px){
+	.max-width{
+		padding: 0 40px;
+	}
+	.home-content .text1{
+		color: #fff;
+		font-size: 24px;
+	}
+	.home-content .text2{
+		color: #fff;
+		font-size: 60px;
+		font-weight: 500px;
+		margin-left: -3px;
+	}
+	.home-content .text3{
+		color: #fff;
+		font-size: 35px;
+		margin-left: 5px 0;
+	}
+
+}
+@media (max-width: 400px){
+	.max-width{
+		padding: 0 40px;
+	}
+	.home-content .text1{
+		color: #fff;
+		font-size: 20px;
+	}
+	.home-content .text2{
+		color: #fff;
+		font-size: 50px;
+		font-weight: 400px;
+		margin-left: -3px;
+	}
+	.home-content .text3{
+		color: #fff;
+		font-size: 30px;
+		margin-left: 5px 0;
+	}
+
+}
